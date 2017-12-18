@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+
+    <PreferenceCategory android:title="General Settings" >
+        <RingtonePreference
+            android:key="Ringtone"
+            android:title="Choose Ringtone"
+            android:summary="Select Ringtone"
+            android:ringtoneType="all"
+        />
+    </PreferenceCategory>
+
+</PreferenceScreen>
